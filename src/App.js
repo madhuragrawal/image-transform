@@ -42,7 +42,7 @@ const App = () => {
                 <div className="bg-white bg-opacity-95 border shadow-lg p-10 text-center">
                     <h1 className="text-5xl mb-8">Image Transform</h1>
                     <p className="mb-4">
-                        Apply grayscale effect to image.
+                        Privately transform images to grayscale directly in your browser, ensuring confidentiality without server involvement.
                     </p>
                     <label className="bg-pink-600 text-white w-full p-6 block cursor-pointer">
                         <input type="file" id="upload" accept=".png" className="hidden" onChange={(e) => handleImageUpload(e.target)} />
